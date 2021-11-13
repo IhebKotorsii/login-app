@@ -1,0 +1,24 @@
+
+.app-login {
+  width: 500px;
+  height: 100%;
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    .listCircle {
+      .circle {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        &:not(:last-child) {
+          margin-right: 15px;
+        }
+      }
+    }
+    .card-body {
+      border-radius: 0 0 15px 15px;
+      .content {
+
+      }
+    }
+  }
+}

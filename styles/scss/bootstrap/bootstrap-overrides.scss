@@ -1,0 +1,12 @@
+
+$secondary: #6480AD;
+
+$theme-colors: (
+        "blue-light" : #ADD8E6,
+        "blue-alice" : #F0F8FF,
+);
+
+$blue-light: map_get($theme-colors, "blue-light");
+$blue-alice: map_get($theme-colors, "blue-alice");
+
+$card-border-radius: 15px;
